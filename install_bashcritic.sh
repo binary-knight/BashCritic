@@ -2,7 +2,7 @@
 
 set -e
 
-echo "🛠 Installing BashCritic..."
+echo "Installing BashCritic..."
 
 # Check Python
 if ! command -v python3 &> /dev/null; then
