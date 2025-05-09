@@ -1,0 +1,20 @@
+# BashCritic Configuration
+
+# LLM model to use (must be available via Ollama)
+# Options: mistral, phi, codellama, llama2, dolphin-mixtral, etc.
+model: mistral
+
+# Ollama host (useful for remote LLMs)
+ollama_host: http://localhost:11434
+
+# Timeout in seconds for the LLM request
+timeout: 90
+
+# Whether to also run ShellCheck (planned feature)
+use_shellcheck: false
+
+# Output format for findings (planned extension: json, markdown, table)
+output_format: rich
+
+# Severity threshold for filtering output (info, warning, error)
+severity_threshold: warning
