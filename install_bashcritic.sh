@@ -35,7 +35,7 @@ fi
 MODEL=$(grep '^model:' config.yaml | awk '{print $2}' || echo "mistral")
 
 # Pull model if not already present
-echo "⬇ Pulling model: $MODEL"
+echo "Pulling model: $MODEL"
 ollama pull "$MODEL"
 
 # Create reports folder
