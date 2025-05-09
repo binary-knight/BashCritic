@@ -1,0 +1,40 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.envrc
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# macOS metadata
+.DS_Store
+
+# Logs and reports
+reports/
+*.log
+
+# Test results and temp files
+*.tmp
+*.out
+*.err
+
+# Backup files
+*.bak
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Misc
+*.egg-info/
